@@ -1,0 +1,120 @@
+.footer{
+    background-color: #E8CCBA;
+    max-width: 1440px ;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+ 
+}
+.footer__wrapper{
+    display: flex;
+    border-top: 1px solid #1d1d1d;
+    width: 100%;
+
+
+}
+.foot__left{
+  padding-top: 49px ;
+  padding-bottom: 23px;
+  max-width: 342px;
+  width: 99%;
+  border-right: 1px solid #1d1d1d;
+}
+.foot__left a{
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: #1d1d1d;
+    margin-bottom: 25px;
+}
+.foot__left li{
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #1d1d1d;
+    margin-bottom: 25px;
+}
+.foot__wrap{
+    display: flex;
+    width: 100%;
+
+}
+.foot__mid{
+max-width: 758px;
+    width: 100%;
+    padding-top: 49px;
+}
+.foot__mid img{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 76px;
+    width: 194px;
+    height: 108px;
+
+}
+.mid__bot{
+    border-top: 1px solid #1d1d1d;
+    width: 100%;
+    padding-top: 16px ;
+    padding-bottom: 13px;
+}
+.mid__bot p{
+
+font-weight: 700;
+font-size: 12px;
+line-height: 150%;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+text-align: center;
+color: #1d1d1d;
+width: 100%;
+}
+.foot__right{
+    max-width: 340px;
+    width: 100%;
+    border-left: 1px solid #1d1d1d;
+    padding-top: 62px;
+  li{
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #1d1d1d;
+    margin-bottom: 25px;
+  }
+  img{
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+
+@media(max-width:500px){
+    .footer__wrapper{
+        display: block;
+        .foot__left{
+            width: 100%;
+            margin: 0 auto;
+            border: none;
+        }
+        .foot__wrap{
+            flex-direction: column-reverse;
+            .foot__right{
+                width: 100%;
+                margin: 0 auto;
+                border: none;
+            }
+            .foot__mid{
+                width: 100%;
+                margin: 0 auto;
+            }
+        }
+    }
+}

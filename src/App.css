@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+.container{
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  
+}
+.btn__btn{
+  clip-path: polygon(18% 1%, 80% 0, 100% 50%, 86% 100%, 13% 100%, 0% 50%);
+  border: none;
+padding-top: 13px ;
+padding-bottom: 11px;
+display: block;
+margin: 0 auto;
+
+  
+}
+.img img{
+  margin-top: 60px;
+  width: 100%;
+
+
+}

@@ -1,0 +1,67 @@
+.email{
+    padding-top: 205px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 184px;
+}
+.email__con{
+
+
+    max-width: 668px;
+    width: 99%;
+    margin: 0 auto;
+    clip-path: polygon(4% 0, 96% 0, 100% 8%, 100% 90%, 95% 100%, 5% 100%, 0 90%, 0 10%);
+    background-color: #E8CCBA;
+    padding-top: 68px;
+    border: 1px solid #1d1d1d;
+}
+.email__con h4{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 189%;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #1d1d1d;
+    max-width: 433px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+.email__con input{
+    width: 55%;
+    display: block;
+    margin: 0 auto;
+    
+margin-bottom: 58px;
+border: none;
+background-color: transparent;
+padding-bottom: 7px;
+border-bottom: 2px solid #1d1d1d;
+
+
+font-weight: 700;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+}
+.email button{
+    padding: 13px 92px;
+    background-color: #1d1d1d;
+font-weight: 700;
+font-size: 14px;
+line-height: 143%;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+text-align: center;
+color: #f3e7e0;
+margin-top: -23.5px;
+
+
+}

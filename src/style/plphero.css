@@ -1,0 +1,53 @@
+.plp__hero{
+    
+    img{
+        width: 99%;
+    }
+
+}
+.p_hero_wrap{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding-top: 18px;
+ padding-bottom: 22px;
+ border-bottom: 1px solid #1d1d1d;
+ margin-bottom: 36px;
+}
+.p_hero_wrap button{
+    padding: 10px 51px;
+font-weight: 700;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+text-align: center;
+color: #1d1d1d;
+background-color: transparent;
+}
+.p_hero_wrap button:hover{
+
+background-color: white;
+transition: 1000ms;
+
+}
+@media(max-width:980px){
+    .p_hero_wrap button{
+        padding: 9px 10px
+    }
+}
+@media (max-width: 569px) {
+    .p_hero_wrap button {
+        font-size: 11px;
+    }
+}
+@media (max-width: 424px) {
+    .p_hero_wrap button {
+        font-size: 6px;
+    }
+}
+@media (max-width: 280px) {
+    .p_hero_wrap button {
+        padding: 9px 9px;
+    }
+}
